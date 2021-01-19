@@ -1,6 +1,7 @@
 $(document).ready( () => {
     $('#search-form').on('submit', (e) => {
         let searchText = $('#search-box').val();
+        console.log(searchText)
         getMovies(searchText)
         e.preventDefault();
     })
@@ -29,9 +30,10 @@ function getMovies(searchText){
                 
               </div>
                 `;
+                
             })
 
-            $('#container').html(output);
+            $('#box-1').html(output);
         })
         .catch(err => console.log(err))
 }
@@ -104,7 +106,7 @@ function Movies(){
                 `;
             })
 
-            $('#container-2').html(output);
+            $('#box').html(output);
         })
         .catch(err => console.log(err))
 }

@@ -214,3 +214,33 @@ a{
 
 }
 
+/* =====
+ Cards 
+ ====== */
+
+ #box, #box-1{
+    background-color: inherit;
+    width: 100%;
+    margin: 0 auto;
+    height: 450px;
+    padding: 10px 5px;
+    
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+    }
+    
+    #box::-webkit-scrollbar{
+      
+    }
+  .card{
+    display: inline-block;
+    background-color: #0f0f0f;
+    margin: 5px;
+    padding: 5px;
+    
+    max-width: 250px;
+    height: 150px;
+  }
+
