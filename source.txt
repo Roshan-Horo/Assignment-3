@@ -1,0 +1,9 @@
+MovieDB:- e7dee8ca871a2295748ace0052eccab1
+
+latest movies:- http://api.themoviedb.org/3/discover/movie?primary_release_date.gte=2021-01-01&primary_release_date.lte=2021-01-18&api_key=e7dee8ca871a2295748ace0052eccab1
+
+popular :- http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=e7dee8ca871a2295748ace0052eccab1
+
+kids :- http://api.themoviedb.org/3/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc&api_key=e7dee8ca871a2295748ace0052eccab1
+
+sci fiction:- http://api.themoviedb.org/3/discover/movie?with_genres=878&with_cast=500&sort_by=vote_average.desc&api_key=e7dee8ca871a2295748ace0052eccab1
